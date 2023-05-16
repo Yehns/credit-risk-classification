@@ -41,6 +41,7 @@ Using bulleted lists, describe the balanced accuracy scores and the precision an
 Summarise the results of the machine learning models, and include a recommendation on the model to use, if any. For example:
 * Which one seems to perform best? How do you know it performs best?
 * Does performance depend on the problem we are trying to solve? (For example, is it more important to predict the `1`'s, or predict the `0`'s? ) 
+
 It appears using machine learning in this scenario is context based. As the data focuses on low (0) vs high (1) risk bank loans, situatioanlly there should be a greater accuracy to high-risk loans. Comparing the two machine learning models, model 2 presents greater results and accuracy and thus should be preferred over the first method. Although, it shuold be further trained to reach a greater f1-score of 1 in the classification report. 
 
 If you do not recommend any of the models, please justify your reasoning.
